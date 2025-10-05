@@ -1,0 +1,342 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Swarit Parida | Portfolio</title>
+
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+  <script src="https://kit.fontawesome.com/64d58efce2.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="style.css">
+
+
+  <style>
+
+  </style>
+</head>
+
+<body>
+
+  <!-- ===== HEADER ===== -->
+  <header>
+    <div class="brand">
+      <img src="images/logo.png" alt="StarkTech logo" id="logo-img">
+      <div class="logo-text">STARKTECH</div>
+    </div>
+
+    <nav aria-label="Primary navigation">
+      <ul class="navlist">
+        <li><a href="#home" class="active">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+
+      <button id="menu-toggle" aria-expanded="false" aria-controls="mobile-nav" title="Menu">
+        <i class="fas fa-bars"></i>
+      </button>
+    </nav>
+  </header>
+
+  <div id="mobile-nav" class="mobile-nav" role="menu" aria-hidden="true">
+    <a href="#home">Home</a>
+    <a href="#about">About</a>
+    <a href="#skills">Skills</a>
+    <a href="#projects">Projects</a>
+    <a href="#contact">Contact</a>
+  </div>
+
+  <!-- ===== HERO SECTION ===== -->
+  <main>
+    <section class="home" id="home">
+      <div class="home-left">
+        <h1>Hi, I’m <span>Swarit Parida</span></h1>
+        <h2><span class="typing" id="typing"></span></h2>
+
+        <div class="socials" aria-label="social links">
+          <a class="btn-social" href="https://github.com/Swarit-Parida" target="_blank" rel="noopener"
+            aria-label="GitHub - Swarit Parida">
+            <i class="fab fa-github"></i> GitHub
+          </a>
+
+          <a class="btn-social" href="https://codeforces.com/profile/Swarit_Parida" target="_blank" rel="noopener"
+            aria-label="Codeforces - Swarit Parida">
+            <i class="fas fa-code"></i> Codeforces
+          </a>
+
+          <a class="btn-social" href="https://www.instagram.com/swaritparida21?igsh=bGFhbno0aHlidXBi" target="_blank"
+            rel="noopener" aria-label="Instagram - Swarit Parida">
+            <i class="fab fa-instagram"></i> Instagram
+          </a>
+
+          <a class="btn-social"
+            href="https://www.linkedin.com/in/swarit-parida-7908772b1?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+            target="_blank" rel="noopener" aria-label="LinkedIn - Swarit Parida">
+            <i class="fab fa-linkedin"></i> LinkedIn
+          </a>
+
+          <a class="btn-social" href="https://www.facebook.com/share/178tdeKrve/" target="_blank" rel="noopener"
+            aria-label="Facebook - Swarit Parida">
+            <i class="fab fa-facebook"></i> Facebook
+          </a>
+        </div>
+
+        <div style="margin-top:18px;">
+          <a class="btn" id="download-cv" href="Swarit_Parida_Tech_CV.pdf" download="Swarit_Parida_Tech_CV.pdf"
+            aria-label="Download CV">
+            <i class="fas fa-download"></i> Download CV
+          </a>
+        </div>
+      </div>
+
+      <div class="home-right">
+        <img src="images/me-hero.jpeg" alt="Swarit Parida" class="hero-photo" id="hero-photo">
+      </div>
+    </section>
+
+    <!-- ===== ABOUT ===== -->
+    <section class="about" id="about">
+      <div class="about-img">
+        <img src="images/me-about.jpeg" alt="Swarit About">
+      </div>
+      <div class="about-text">
+        <h2>About Me</h2>
+        <p>
+          I’m a <strong>Web Developer</strong> and <em>lifelong learner</em> who loves turning ideas into interactive
+          digital experiences.
+          I work with <strong>Python</strong>, <strong>C++</strong>, and <strong>Java</strong>, blending logic with
+          creativity
+          to build impactful solutions.
+        </p>
+
+        <p>
+          I enjoy exploring <strong>new technologies</strong> — from sleek front-end designs to scalable back-end
+          systems.
+          <em>Coding, for me, is like strategy in a cricket match</em> — it’s all about patience, precision, and timing.
+        </p>
+
+        <p>
+          Beyond the keyboard, you’ll often find me on the <strong>cricket field</strong> or at the
+          <strong>table-tennis table</strong>. Sports keep my mind sharp and my focus strong — traits I bring to
+          <strong>coding</strong> and <strong>teamwork</strong>.
+        </p>
+
+        <p>
+          Inspired by <strong>Tony Stark’s vision</strong>, I aim to <strong>invent, innovate, and engineer</strong>
+          solutions that push boundaries. Whether it’s writing clean code or hitting a cover drive,
+          <em>excellence, passion, and persistence</em> are my core values. 🚀
+        </p>
+        <a href="#skills" class="btn">Know More</a>
+      </div>
+    </section>
+
+    <!-- ===== SKILLS ===== -->
+    <section class="skills" id="skills">
+      <h2>My Skills</h2>
+      <p class="section-sub">Things I’m good at ⚡</p>
+      <div class="skill-grid">
+        <div class="skill-card"><i class="fas fa-code"></i>
+          <h3>Web Development</h3>
+        </div>
+        <div class="skill-card"><i class="fab fa-python"></i>
+          <h3>Python</h3>
+        </div>
+        <div class="skill-card"><i class="fas fa-laptop-code"></i>
+          <h3>C++</h3>
+        </div>
+        <div class="skill-card"><i class="fab fa-java"></i>
+          <h3>Java</h3>
+        </div>
+        <div class="skill-card"><i class="fas fa-baseball-ball"></i>
+          <h3>Cricket</h3>
+        </div>
+        <div class="skill-card"><i class="fas fa-table-tennis"></i>
+          <h3>Table Tennis</h3>
+        </div>
+        <div class="skill-card"><i class="fas fa-futbol"></i>
+          <h3>Football</h3>
+        </div>
+        <div class="skill-card"><i class="fas fa-gamepad"></i>
+          <h3>CODM</h3>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== PROJECTS ===== -->
+    <section class="projects" id="projects">
+      <h2>My Projects</h2>
+      <div class="project-grid">
+        <div class="project-card">
+          <div>
+            <h3>RSA TRY ONE</h3>
+            <p>Implementation of RSA cryptography algorithm</p>
+          </div>
+          <div>
+            <a class="btn" href="https://github.com/gingerwiththreer/RSATRYONE" target="_blank" rel="noopener">View
+              Project</a>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <div>
+            <h3>Coming Soon</h3>
+            <p>More awesome projects on the way...</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== CONTACT ===== -->
+    <section class="contact" id="contact">
+      <h2>Contact Me</h2>
+      <p class="section-sub">Let’s build something amazing together 🚀</p>
+      <form action="#" onsubmit="event.preventDefault(); alert('Message sent (demo)!');">
+        <input type="text" placeholder="Your Name" required />
+        <input type="email" placeholder="Your Email" required />
+        <input type="text" placeholder="Subject (optional)" />
+        <textarea placeholder="Your Message" required></textarea>
+        <button type="submit" class="btn"><i class="fas fa-paper-plane"></i> Send</button>
+      </form>
+    </section>
+
+    <footer>
+      <p>© 2025 <span class="footer-name">Swarit Parida</span> | All Rights Reserved</p>
+    </footer>
+  </main>
+
+  <!-- ===== SCRIPTS ===== -->
+  <script>
+
+    const menuBtn = document.getElementById('menu-toggle');
+    const mobileNav = document.getElementById('mobile-nav');
+    if (menuBtn) {
+      menuBtn.addEventListener('click', () => {
+        const expanded = menuBtn.getAttribute('aria-expanded') === 'true';
+        menuBtn.setAttribute('aria-expanded', String(!expanded));
+        if (mobileNav.style.display === 'block') {
+          mobileNav.style.display = 'none';
+          mobileNav.setAttribute('aria-hidden', 'true');
+        } else {
+          mobileNav.style.display = 'block';
+          mobileNav.setAttribute('aria-hidden', 'false');
+        }
+      });
+
+      mobileNav.querySelectorAll('a').forEach(a => {
+        a.addEventListener('click', () => {
+          mobileNav.style.display = 'none';
+          menuBtn.setAttribute('aria-expanded', 'false');
+          mobileNav.setAttribute('aria-hidden', 'true');
+        })
+      })
+    }
+
+    (function () {
+      const target = document.getElementById('typing');
+      if (!target) return;
+
+      const phrases = [
+        'Web Developer',
+        'Python Expert',
+        'C++ Coder',
+        'Problem Solver',
+        'Java Coder',
+        'Sports Enthusiast'
+      ];
+
+      const typeSpeed = 50;
+      const deleteSpeed = 28;
+      const betweenDelay = 900;
+      const initialDelay = 300;
+
+      let pIndex = 0;
+      let charIndex = 0;
+      let typing = true;
+
+      async function sleep(ms) { return new Promise(res => setTimeout(res, ms)); }
+
+      async function typeLoop() {
+        await sleep(initialDelay);
+        while (true) {
+          const current = phrases[pIndex];
+
+          while (charIndex < current.length) {
+            charIndex++;
+            target.textContent = current.slice(0, charIndex);
+            await sleep(typeSpeed);
+          }
+
+          await sleep(betweenDelay);
+
+          while (charIndex > 0) {
+            charIndex--;
+            target.textContent = current.slice(0, charIndex);
+            await sleep(deleteSpeed);
+          }
+
+          pIndex = (pIndex + 1) % phrases.length;
+        }
+      }
+
+      typeLoop();
+    })();
+
+
+
+    (function () {
+      const observer = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+          if (entry.isIntersecting) {
+            entry.target.style.transform = 'translateY(0)';
+            entry.target.style.opacity = '1';
+            observer.unobserve(entry.target);
+          }
+        });
+      }, { threshold: 0.12 });
+
+      document.querySelectorAll('.project-card, .skill-card, .about-img img, .home-left').forEach(el => {
+        el.style.opacity = '0';
+        el.style.transform = 'translateY(10px)';
+        el.style.transition = 'opacity .6s ease, transform .6s cubic-bezier(.2,.9,.3,1)';
+        observer.observe(el);
+      });
+    })();
+
+    (function () {
+      const logo = document.getElementById('logo-img');
+      if (!logo) return;
+      logo.style.filter = 'brightness(1.4) saturate(1.2)';
+      logo.style.boxShadow = '0 6px 20px rgba(0,225,222,0.06)';
+    })();
+
+    (function () {
+      const dl = document.getElementById('download-cv');
+      if (!dl) return;
+      dl.addEventListener('click', function (e) {
+      });
+    })();
+
+    (function () {
+      const aboutSection = document.querySelector('.about');
+      if (!aboutSection) return;
+
+      const observer = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+          if (entry.isIntersecting) {
+            aboutSection.classList.add('fade-up-visible');
+            observer.unobserve(aboutSection);
+          }
+        });
+      }, { threshold: 0.15 });
+
+      observer.observe(aboutSection);
+    })();
+
+
+  </script>
+</body>
+
+</html>
